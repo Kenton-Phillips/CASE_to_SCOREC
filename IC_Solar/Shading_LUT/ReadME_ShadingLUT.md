@@ -45,13 +45,13 @@ Stack 1 | Stack 2 | Stack 3 | Stack 4
 ----
 
 #### Bay II Module Correspondings Shading LUT
-ShadLUT are tab separted TxT Files. 
+ShadLUT are tab separted .txt Files. 
 Format of File is:
-Pitch	Yaw		Viewfactor(VF) -> scalar multiplied by DNI to get Energy in per cell
+Pitch	Yaw		Percent Shaded 
 
 
 
-`ICSolarmodule_xx_VF`
+`ICSolarmodule_xx_ShadLUT.txt`
 
 
 Stack 1 | Stack 2 | Stack 3 | Stack 4
