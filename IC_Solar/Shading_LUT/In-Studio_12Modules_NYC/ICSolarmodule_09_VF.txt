@@ -1,5 +1,4 @@
 Pitch	Yaw	Percent Shaded
-0	-72	 1 
 72	72	 1 
 72	69	 1 
 72	66	 1 
