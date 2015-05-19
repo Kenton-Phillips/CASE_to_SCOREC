@@ -1,1 +1,1 @@
-# This is a test
+# File exchange between CASE and SCOREC
