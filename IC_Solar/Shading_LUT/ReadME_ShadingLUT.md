@@ -5,7 +5,7 @@
 2. In-Studio 12 Modules in series for NYC
 
 
-## Naming ConventionL: In-Studio 12 Modules in series for NYC
+## Naming Convention: In-Studio 12 Modules in series for NYC
 
 
 Bay #, Stack #, Module #
