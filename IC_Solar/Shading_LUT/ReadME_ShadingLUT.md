@@ -5,7 +5,7 @@
 2. In-Studio 12 Modules in series for NYC
 
 
-## Naming Convention for In-Studio 12 Modules in series for NYC
+## Naming ConventionL: In-Studio 12 Modules in series for NYC
 
 
 Bay #, Stack #, Module #
@@ -47,7 +47,7 @@ Stack 1 | Stack 2 | Stack 3 | Stack 4
 #### Bay II Module Correspondings Shading LUT
 ShadLUT are tab separted TxT Files. 
 Format of File is:
-Pitch	Yaw		Viewfactor(VF) -> scalar to multiplied by DNI to get Energy in per cell
+Pitch	Yaw		Viewfactor(VF) -> scalar multiplied by DNI to get Energy in per cell
 
 
 
