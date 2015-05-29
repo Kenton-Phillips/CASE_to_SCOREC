@@ -1,8 +1,24 @@
 % Given: a quadrant's worth of %shaded LUTs for ICSF
 % This script creates % exposed LUTs, for the og LUTs, and for the other quadrants. 
 %% 
-filenam = 'ICSolarmodule_09_ShadLUT_Generic.txt';
-% filenam = 'ICSolarmodule_12_ShadLUT_Generic_Copy.txt';
+%STEP1 - pick a generated LUT file:
+filenam = 'ICSolarmodule_12_ShadLUT_Generic.txt';
+%STEP2 - give it a position number according to the Fraction_exposed array
+%convention:
+
+%fullFracExposedLUT = (pitch, yaw, row, column)
+% (looking out)
+%    | L       F       R
+%    | 1   2   3   4   5
+%____|_____________________
+% U1 | 1,1 1,2 1,3 1,4 1,5
+%  2 | 2,1 2,2 2,3
+% F3 |
+%  4 |
+% D5 |
+
+
+
 shadModNum = filenam(15:16);
 delimiterIn = '\t';
 headerlinesIn = 1;
