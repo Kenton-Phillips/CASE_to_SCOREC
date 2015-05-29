@@ -37,20 +37,20 @@ og_yawVec = shadLUTdata.data(:,2);
 % (is % (72,72)=(up,left))
 %and here's the original LUT:
 ogLUT = fliplr(rot90(reshape(og_fractExposed,[L L]),-1));
+%ogLUT = LUT12rev; this dirty little line was just to shortcut something
+%that looked better for the corner LUTs. This should be re-run when the
+%grasshopper sim can be run again, to get the real corner LUT data.
+
 % now flip LUT left-right to make LUT for the opposite corner
 ogLUTPrime = fliplr(ogLUT);
 ogLUTPrimePrime = flipud(ogLUTPrime);
 ogLUTPrimePrimePrime = fliplr(ogLUTPrimePrime);
+
 %reshape the pitch and yaw vectors to match the LUT tables
 og_yawTable = reshape(og_yawVec,[L L]);
 og_pitchTable = reshape(og_pitchVec,[L L]);
 % and flip the pitch table to fix the LR mirror in the og file
 og_pitchTable = fliplr(og_pitchTable);
-
-% % and shove the tables back into vectors
-% fractExposedPrime = reshape(ogLUTPrime,[L*L 1]);
-% new_pitchVec = reshape(og_pitchTable,[L*L 1]);
-% new_yawVec = reshape(og_yawTable,[L*L 1]);
 
 %% xlswrite to confirm
 % xlswrite('C:\Users\Nick\Documents\CASE_to_SCOREC\IC_Solar\Shading_LUT\Generic_8x8\testxlsLUTout.xlsx',ogLUT)
