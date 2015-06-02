@@ -2,8 +2,7 @@
 % This script creates % exposed LUTs, for the og LUTs, and for the other quadrants. 
 %% 
 %STEP1 - pick a generated LUT file:
-%filenam = 'C:\Users\Nick\Dropbox\IC Solar in Studio\0-DWGS\02-Schematic Drawings\Range of Motion_New Bay 3\shading\generic_26-05\ForDZ_2d Lookup txt\ICSolarmodule_12_ShadLUT_Generic.txt';
-filenam = 'ICSolarmodule_09_ShadLUT_Generic_3.txt';
+filenam = 'ICSolarmodule_12_ShadLUT_Generic_2.txt';
 %STEP2 - give it a position number according to the Fraction_exposed array
 %convention:
 
