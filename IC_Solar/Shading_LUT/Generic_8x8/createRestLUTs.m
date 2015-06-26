@@ -7,6 +7,7 @@ filenam = 'ICSolarmodule_09_ShadLUT_Generic_3.txt';
 %STEP2 - give it a position number according to the Fraction_exposed array
 %convention:
 
+
 shadModNum = filenam(15:16);
 delimiterIn = '\t';
 headerlinesIn = 1;
